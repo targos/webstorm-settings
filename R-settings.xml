@@ -1,0 +1,28 @@
+<application>
+  <component name="RSettings">
+    <option name="evalActionPrefs">
+      <list>
+        <evalactionconfig>
+          <option name="code" value="head(%snippet%); nrow(%snippet%);" />
+          <option name="defShortCut" value="meta alt H" />
+          <option name="name" value="head+nrow" />
+        </evalactionconfig>
+        <evalactionconfig>
+          <option name="code" value="str(%snippet%);" />
+          <option name="defShortCut" value="meta alt S" />
+          <option name="name" value="structure" />
+        </evalactionconfig>
+        <evalactionconfig>
+          <option name="code" value="?%snippet%" />
+          <option name="defShortCut" value="meta alt T" />
+          <option name="name" value="help" />
+        </evalactionconfig>
+        <evalactionconfig>
+          <option name="code" value="summarize(%snippet%);" />
+          <option name="defShortCut" value="meta alt T" />
+          <option name="name" value="summarize" />
+        </evalactionconfig>
+      </list>
+    </option>
+  </component>
+</application>

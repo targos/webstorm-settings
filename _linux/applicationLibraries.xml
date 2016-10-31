@@ -1,0 +1,53 @@
+<application>
+  <component name="libraryTable">
+    <library name="jquery" type="javaScript">
+      <properties>
+        <option name="frameworkName" value="jQuery" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.WebStorm9/system/extLibs/http_www.lactame.com_lib_jquery_2.1.1_jquery.min.js" />
+      </CLASSES>
+      <DOCUMENTATION>
+        <root url="http://api.jquery.com" />
+      </DOCUMENTATION>
+      <SOURCES />
+    </library>
+    <library name="jquery-2.1.1" type="javaScript">
+      <properties>
+        <option name="frameworkName" value="jQuery" />
+        <option name="frameworkVersion" value="1.1." />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.WebStorm9/system/extLibs/http_code.jquery.com_jquery-2.1.1.js" />
+      </CLASSES>
+      <DOCUMENTATION>
+        <root url="http://api.jquery.com" />
+      </DOCUMENTATION>
+      <SOURCES />
+    </library>
+    <library name="mocha-DefinitelyTyped" type="javaScript">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.WebStorm10/system/extLibs/http_github.com_borisyankov_DefinitelyTyped_raw_master_mocha_mocha.d.ts" />
+      </CLASSES>
+      <SOURCES />
+    </library>
+    <library name="sass-stdlib">
+      <CLASSES>
+        <root url="file://$APPLICATION_HOME_DIR$/plugins/sass/lib/stubs/sass_functions.scss" />
+      </CLASSES>
+      <SOURCES />
+    </library>
+    <library name="should-DefinitelyTyped" type="javaScript">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.WebStorm10/system/extLibs/http_github.com_borisyankov_DefinitelyTyped_raw_master_should_should.d.ts" />
+      </CLASSES>
+      <SOURCES />
+    </library>
+    <library name="URI" type="javaScript">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.WebStorm9/system/extLibs/http_www.lactame.com_lib_uri.js_1.14.1_URI.min.js" />
+      </CLASSES>
+      <SOURCES />
+    </library>
+  </component>
+</application>
