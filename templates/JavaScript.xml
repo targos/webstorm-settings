@@ -11,16 +11,17 @@
   </template>
   <template name="cl" value="console.log($END$);" description="Console log" toReformat="true" toShortenFQNames="true">
     <context>
+      <option name="JS_EXPRESSION" value="true" />
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="it" value="it('$DESC$', function () {&#10;    $END$&#10;});" description="mocha unit test" toReformat="true" toShortenFQNames="true">
+  <template name="it" value="it('$DESC$', () =&gt; {&#10;    $END$&#10;});" description="mocha unit test" toReformat="true" toShortenFQNames="true">
     <variable name="DESC" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="desc" value="describe('$DESC$', function () {&#10;    $END$&#10;});" description="mocha unit test" toReformat="false" toShortenFQNames="true">
+  <template name="desc" value="describe('$DESC$', () =&gt; {&#10;    $END$&#10;});" description="mocha unit test" toReformat="false" toShortenFQNames="true">
     <variable name="DESC" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JS_STATEMENT" value="true" />
@@ -28,6 +29,7 @@
   </template>
   <template name="ce" value="console.error($END$);" description="Console error" toReformat="true" toShortenFQNames="true">
     <context>
+      <option name="JS_EXPRESSION" value="true" />
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
@@ -57,12 +59,33 @@
   </template>
   <template name="ct" value="console.time('$END$');" description="Console time" toReformat="true" toShortenFQNames="true">
     <context>
+      <option name="JS_EXPRESSION" value="true" />
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
   <template name="cte" value="console.timeEnd('$END$');" description="Console timeEnd" toReformat="true" toShortenFQNames="true">
     <context>
+      <option name="JS_EXPRESSION" value="true" />
       <option name="JS_STATEMENT" value="true" />
     </context>
+  </template>
+  <template name="iter" value="for (const $VAR$ of $ARRAY$) {&#10;  $END$&#10;}" description="Iterate (for..of) - ES2015" toReformat="true" toShortenFQNames="true">
+    <variable name="ARRAY" expression="jsArrayVariable()" defaultValue="&quot;array &quot;" alwaysStopAt="true" />
+    <variable name="VAR" expression="jsSuggestVariableName()" defaultValue="&quot;o&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="itin" value="for (const $VAR$ in $ARRAY$) {&#10;  $END$&#10;}" description="Iterate (for..in)" toReformat="true" toShortenFQNames="true">
+    <variable name="ARRAY" expression="jsArrayVariable()" defaultValue="&quot;array &quot;" alwaysStopAt="true" />
+    <variable name="VAR" expression="jsSuggestVariableName()" defaultValue="&quot;o&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="itar" value="for (var $INDEX$ = 0; $INDEX$ &lt; $ARRAY$.length; $INDEX$++) {&#10;  const $VAR$ = $ARRAY$[$INDEX$];&#10;  $END$&#10;}" description="Iterate elements of array" toReformat="true" toShortenFQNames="true">
+    <variable name="INDEX" expression="jsSuggestIndexName()" defaultValue="&quot;i&quot;" alwaysStopAt="true" />
+    <variable name="ARRAY" expression="jsArrayVariable()" defaultValue="&quot;array&quot;" alwaysStopAt="true" />
+    <variable name="VAR" expression="jsSuggestVariableName()" defaultValue="&quot;o&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="us" value="'use strict';&#10;&#10;$END$" description="Inserts 'use strict' statement" toReformat="true" toShortenFQNames="true">
+    <context />
   </template>
 </templateSet>
