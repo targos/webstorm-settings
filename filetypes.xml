@@ -8,10 +8,10 @@
       <mapping pattern="test" type="PLAIN_TEXT" />
       <mapping pattern="LICENSE-GPL" type="PLAIN_TEXT" />
       <mapping pattern="middleware" type="PLAIN_TEXT" />
-      <mapping pattern="crontab" type="PLAIN_TEXT" />
       <mapping pattern="LICENSE-BSD" type="PLAIN_TEXT" />
       <mapping pattern=".rest-on-couch-config" type="PLAIN_TEXT" />
       <mapping pattern="LICENSE" type="PLAIN_TEXT" />
+      <mapping pattern="crontab" type="PLAIN_TEXT" />
       <mapping pattern="start" type="PLAIN_TEXT" />
       <mapping ext="csv" type="PLAIN_TEXT" />
       <mapping ext="crd" type="PLAIN_TEXT" />
@@ -23,6 +23,7 @@
       <mapping ext="conf" type="PLAIN_TEXT" />
       <mapping ext="mol" type="PLAIN_TEXT" />
       <mapping ext="jme" type="PLAIN_TEXT" />
+      <mapping ext="gn" type="PLAIN_TEXT" />
       <mapping ext="tsv" type="PLAIN_TEXT" />
       <mapping ext="rda" type="PLAIN_TEXT" />
       <mapping ext="php" type="PHP files" />
