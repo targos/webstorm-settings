@@ -8,6 +8,7 @@
       <mapping pattern="test" type="PLAIN_TEXT" />
       <mapping pattern="LICENSE-GPL" type="PLAIN_TEXT" />
       <mapping pattern="middleware" type="PLAIN_TEXT" />
+      <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping pattern="LICENSE-BSD" type="PLAIN_TEXT" />
       <mapping pattern=".rest-on-couch-config" type="PLAIN_TEXT" />
       <mapping pattern="LICENSE" type="PLAIN_TEXT" />
