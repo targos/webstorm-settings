@@ -42,6 +42,12 @@
       </CLASSES>
       <SOURCES />
     </library>
+    <library name="R Skeletons">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.WebStorm2017.1/system/r_skeletons/725233088" />
+      </CLASSES>
+      <SOURCES />
+    </library>
     <library name="sass-stdlib">
       <CLASSES>
         <root url="file://$APPLICATION_HOME_DIR$/plugins/sass/lib/stubs/sass_functions.scss" />
