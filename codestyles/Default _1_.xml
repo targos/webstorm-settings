@@ -1,5 +1,8 @@
 <code_scheme name="Default (1)">
   <option name="RIGHT_MARGIN" value="80" />
+  <JSCodeStyleSettings>
+    <option name="IMPORT_SORT_MODULE_NAME" value="true" />
+  </JSCodeStyleSettings>
   <XML>
     <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
   </XML>
