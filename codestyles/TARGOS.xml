@@ -1,14 +1,18 @@
-<code_scheme name="Default (2)">
+<code_scheme name="TARGOS">
   <option name="RIGHT_MARGIN" value="80" />
+  <option name="HTML_ALIGN_ATTRIBUTES" value="false" />
+  <option name="HTML_SPACE_INSIDE_EMPTY_TAG" value="true" />
   <JSCodeStyleSettings>
     <option name="FORCE_SEMICOLON_STYLE" value="true" />
     <option name="USE_DOUBLE_QUOTES" value="false" />
     <option name="FORCE_QUOTE_STYlE" value="true" />
   </JSCodeStyleSettings>
-  <MarkdownNavigatorCodeStyleSettings>
-    <option name="RIGHT_MARGIN" value="72" />
-  </MarkdownNavigatorCodeStyleSettings>
   <XML>
     <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
   </XML>
+  <codeStyleSettings language="HTML">
+    <indentOptions>
+      <option name="CONTINUATION_INDENT_SIZE" value="4" />
+    </indentOptions>
+  </codeStyleSettings>
 </code_scheme>
