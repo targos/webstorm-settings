@@ -1,7 +1,9 @@
 <code_scheme name="TARGOS">
-  <option name="RIGHT_MARGIN" value="80" />
+  <option name="HTML_ATTRIBUTE_WRAP" value="4" />
   <option name="HTML_ALIGN_ATTRIBUTES" value="false" />
   <option name="HTML_SPACE_INSIDE_EMPTY_TAG" value="true" />
+  <option name="HTML_NEWLINE_BEFORE_FIRST_ATTRIBUTE" value="When multiline" />
+  <option name="HTML_NEWLINE_AFTER_LAST_ATTRIBUTE" value="When multiline" />
   <JSCodeStyleSettings>
     <option name="FORCE_SEMICOLON_STYLE" value="true" />
     <option name="USE_DOUBLE_QUOTES" value="false" />
